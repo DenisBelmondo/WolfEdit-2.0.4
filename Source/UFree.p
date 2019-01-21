@@ -1,0 +1,1 @@
+unit UFree;interface	uses		ObjIntf;	procedure FreeObject (obj: TObject);implementation	procedure FreeObject (obj: TObject);	begin		if obj <> nil then			obj.Free;	end;end.

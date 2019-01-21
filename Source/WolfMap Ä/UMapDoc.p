@@ -1,0 +1,1 @@
+unit UMapDoc;interface	uses		UGoof;	type		TMapDoc = object(TDocument)			end;implementationend.

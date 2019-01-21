@@ -1,0 +1,1 @@
+unit UMainSeg;interface	procedure CallWithA4SetUp (procedure ProcToCall);implementation	procedure CallWithA4SetUp (procedure ProcToCall);	begin		SetupA4;		ProcToCall;		RestoreA4;	end;end.

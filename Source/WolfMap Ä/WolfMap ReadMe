@@ -1,0 +1,1 @@
+WolfMapThis is an application that I used during development of WolfEdit. It reads a Wolfenstein level and displays all the inner details of the grid cells and BSP segments. It's strictly for the curious hacker.

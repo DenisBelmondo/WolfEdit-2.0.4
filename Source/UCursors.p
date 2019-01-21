@@ -1,0 +1,1 @@
+unit UCursors;interface	var		gWatch: CursHandle;	procedure IUCursors;	procedure ChangeCursor (h: CursHandle);implementation	uses		UGoof;	procedure IUCursors;		var			h: CursHandle;	begin		gWatch := GetCursor(watchCursor);	end;	procedure ChangeCursor (h: CursHandle);	begin		gCurrentCursor := h;		SetCursor(h^^);	end;end.

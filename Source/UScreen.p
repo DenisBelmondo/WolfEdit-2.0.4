@@ -1,0 +1,1 @@
+unit UScreen;interface	function IsSmallScreen: boolean;implementation	function IsSmallScreen: boolean;	begin		with screenBits.bounds do			IsSmallScreen := (right - left < 640) | (bottom - top < 480);	end;end.
